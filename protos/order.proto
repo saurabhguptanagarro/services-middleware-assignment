@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package order;
+
+// Order service definition.
+service Order {
+  // Place order
+  rpc PlaceOrder (OrderRequest) returns (OrderReply) {}
+
+  // Update order
+  rpc UpdateOrder (OrderRequest) returns (OrderReply) {}
+}
+
+message OrderRequest {
+  optional int64 orderId = 1;
+  repeated OrderItem items = 2;
+}
+
+message OrderItem {
+  int32 productId = 1;
+  int32 quantity = 2;
+}
+
+// The response message
+message OrderReply {
+  optional int64 orderId = 1;
+  string message = 2;
+}

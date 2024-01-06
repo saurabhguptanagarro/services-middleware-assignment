@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "color": "Blue",
+        "description": "Arrorw T-shirt half sleeve",
+        "price": 1000
+    },
+    {
+        "id": 2,
+        "color": "White",
+        "description": "Levis Shirt full sleeve",
+        "price": 2300
+    },
+    {
+        "id": 3,
+        "color": "Red",
+        "description": "Reebok sneakers",
+        "price": 2500
+    },
+    {
+        "id": 4,
+        "color": "White",
+        "description": "Nike Air Jordan",
+        "price": 8000
+    },
+    {
+        "id": 5,
+        "color": "Teal",
+        "description": "Mufti Jeans",
+        "price": 900
+    }
+]
