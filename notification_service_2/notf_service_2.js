@@ -38,8 +38,7 @@ amqp.connect(rabbitMQURL, function (error0, connection) {
           q.queue,
           function (msg) {
             console.log(
-              " [x] %s:'%s'",
-              msg.fields.routingKey,
+              " [x] %s",
               msg.content.toString()
             );
           },
